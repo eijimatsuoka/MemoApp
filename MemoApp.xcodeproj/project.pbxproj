@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		B3BD17B727533AD100B2FF3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BD17B627533AD100B2FF3D /* AppDelegate.swift */; };
 		B3BD17B927533AD100B2FF3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BD17B827533AD100B2FF3D /* SceneDelegate.swift */; };
-		B3BD17BB27533AD100B2FF3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BD17BA27533AD100B2FF3D /* ViewController.swift */; };
 		B3BD17BE27533AD100B2FF3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BD17BC27533AD100B2FF3D /* Main.storyboard */; };
 		B3BD17C027533AD900B2FF3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BD17BF27533AD900B2FF3D /* Assets.xcassets */; };
 		B3BD17C327533AD900B2FF3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BD17C127533AD900B2FF3D /* LaunchScreen.storyboard */; };
+		B3BD17CB27533D6C00B2FF3D /* MemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BD17CA27533D6C00B2FF3D /* MemoTableViewController.swift */; };
+		B3BD17CD2753433900B2FF3D /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BD17CC2753433900B2FF3D /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3BD17B327533AD100B2FF3D /* MemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BD17B627533AD100B2FF3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3BD17B827533AD100B2FF3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3BD17BA27533AD100B2FF3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3BD17BD27533AD100B2FF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3BD17BF27533AD900B2FF3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3BD17C227533AD900B2FF3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3BD17C427533AD900B2FF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BD17CA27533D6C00B2FF3D /* MemoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewController.swift; sourceTree = "<group>"; };
+		B3BD17CC2753433900B2FF3D /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				B3BD17B627533AD100B2FF3D /* AppDelegate.swift */,
 				B3BD17B827533AD100B2FF3D /* SceneDelegate.swift */,
-				B3BD17BA27533AD100B2FF3D /* ViewController.swift */,
 				B3BD17BC27533AD100B2FF3D /* Main.storyboard */,
 				B3BD17BF27533AD900B2FF3D /* Assets.xcassets */,
 				B3BD17C127533AD900B2FF3D /* LaunchScreen.storyboard */,
 				B3BD17C427533AD900B2FF3D /* Info.plist */,
+				B3BD17CA27533D6C00B2FF3D /* MemoTableViewController.swift */,
+				B3BD17CC2753433900B2FF3D /* MemoViewController.swift */,
 			);
 			path = MemoApp;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BD17BB27533AD100B2FF3D /* ViewController.swift in Sources */,
+				B3BD17CD2753433900B2FF3D /* MemoViewController.swift in Sources */,
+				B3BD17CB27533D6C00B2FF3D /* MemoTableViewController.swift in Sources */,
 				B3BD17B727533AD100B2FF3D /* AppDelegate.swift in Sources */,
 				B3BD17B927533AD100B2FF3D /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HR5C8KU7MR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HR5C8KU7MR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MemoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

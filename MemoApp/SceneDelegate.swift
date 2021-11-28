@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  MemoApp
-//
-//  Created by 松岡栄志 on 2021/11/28.
-//
 
 import UIKit
 
